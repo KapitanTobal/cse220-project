@@ -1,11 +1,9 @@
-
 {
     "version": "2.0.0",
     "tasks": [
-
         {
             "label": "build-sandbox-Sandbox",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -15,10 +13,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-csharp-prep-Prep1",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -28,10 +25,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-csharp-prep-Prep2",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -41,10 +37,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-csharp-prep-Prep3",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -54,10 +49,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-csharp-prep-Prep4",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -67,10 +61,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-csharp-prep-Prep5",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -80,10 +73,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-prepare-Learning02",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -93,10 +85,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-prepare-Learning03",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -106,10 +97,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-prepare-Learning04",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -119,10 +109,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-prepare-Learning05",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -132,10 +121,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-prove-Develop02",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -145,10 +133,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-prove-Develop03",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -158,10 +145,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-prove-Develop04",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -171,10 +157,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-prove-Develop05",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -184,10 +169,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-final-FinalProject",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -197,10 +181,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-final-Foundation1",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -210,10 +193,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-final-Foundation2",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -223,10 +205,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-final-Foundation3",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -236,10 +217,9 @@
             ],
             "problemMatcher": "$msCompile"
         },
-
         {
             "label": "build-final-Foundation4",
-            "command": "dotnet",
+            "command": "/usr/local/share/dotnet/dotnet",
             "type": "process",
             "args": [
                 "build",
@@ -248,7 +228,6 @@
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
-        },
-
+        }
     ]
 }
