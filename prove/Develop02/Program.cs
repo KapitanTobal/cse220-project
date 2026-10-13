@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
+        /*
+         Creativity feature:
+         Users can edit an existing journal entry after writing it.
+         This allows them to correct mistakes or add more details later.
+        */
+
         Journal journal = new Journal();
         PromptGenerator promptGenerator = new PromptGenerator();
 
@@ -17,7 +23,8 @@ class Program
             Console.WriteLine("2. Display");
             Console.WriteLine("3. Load");
             Console.WriteLine("4. Save");
-            Console.WriteLine("5. Quit");
+            Console.WriteLine("5. Edit an Entry");
+            Console.WriteLine("6. Quit");
             Console.Write("What would you like to do? ");
 
             string choice = Console.ReadLine();
@@ -39,6 +46,8 @@ class Program
                 entry._response = response;
 
                 journal.AddEntry(entry);
+
+                Console.WriteLine("Entry saved.");
             }
             else if (choice == "2")
             {
@@ -64,7 +73,12 @@ class Program
             }
             else if (choice == "5")
             {
+                journal.EditEntry();
+            }
+            else if (choice == "6")
+            {
                 running = false;
+                Console.WriteLine("Goodbye!");
             }
             else
             {
